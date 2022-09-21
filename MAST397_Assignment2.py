@@ -25,4 +25,3 @@ plt.plot([23,65],[23,23], color="white")
 plt.plot([44,44],[5,41], color="white")
 
 plt.show()
-plt.savefig('foo.png')
