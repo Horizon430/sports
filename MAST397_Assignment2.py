@@ -23,5 +23,5 @@ plt.plot([65,65],[9.5,36.5], color="white")
 
 plt.plot([23,65],[23,23], color="white")
 plt.plot([44,44],[5,41], color="white")
-
+plt.savefig("tennis.png")
 plt.show()
