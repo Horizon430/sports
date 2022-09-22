@@ -1,7 +1,6 @@
 #tennis court
 import matplotlib.pyplot as plt
-fig=plt.figure()
-ax=fig.add_subplot(1,1,1)
+
 
 #background color
 plt.rcParams['axes.facecolor']='tab:blue'
@@ -28,7 +27,5 @@ plt.plot([23,65],[23,23], color="white")
 plt.plot([44,44],[5,41], color="white")
 
 
-ax.get_xaxis().set_visible(False)
-ax.get_yaxis().set_visible(False)
 plt.savefig("tennis.png")
 plt.show()
